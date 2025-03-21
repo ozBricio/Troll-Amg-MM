@@ -1,0 +1,73 @@
+*
+{
+    padding   :  0;
+    margin    :  0;
+}
+body
+{
+    background-color   :  rgb(151, 52, 52);
+    text-align         :  center;
+    font-family        :  sans-serif;
+}
+
+h1
+{
+    display   :  inline;
+    color     :  rgb(14, 34, 14);
+}
+
+
+
+canvas
+{
+    background-color   :  lightgreen;
+    border-radius      :  10px;
+    border             :  3px solid rgb(0, 0, 0);
+    margin-top         :  5vh;
+}
+
+#tempo_label
+{
+    display            :  none;
+    color              :  antiquewhite;
+    margin-left        :  8%;
+    background-color   :  rgb(78, 17, 17);
+    border-radius      :  20px;
+    box-shadow         :  3px 3px 5px rgb(90, 42, 42);
+    border             :  3px solid rgb(42, 90, 42);
+    width              :  10%;
+}
+
+#contador_maca
+{
+    position   :  relative;
+    bottom     :  1.5vh;
+    color      :  antiquewhite;
+}
+
+#contador_label
+{
+    display   :  none;
+}
+
+h1 {
+    display: inline;
+    color: white; /* Cor alterada para branco */
+    text-transform: uppercase; /* Texto em maiúsculo */
+    font-size: 2.5em; /* Ajuste opcional para melhorar a legibilidade */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Sombra para destacar */
+}
+
+#reset {
+    transition: transform 0.2s;
+}
+
+#reset:hover {
+    transform: scale(1.1);
+}
+
+#reset:active {
+    transform: scale(0.95);
+}
+
+
